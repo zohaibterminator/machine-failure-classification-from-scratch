@@ -1,6 +1,6 @@
 # Machine Failure Prediction
 
-This project aims to predict machine failures using logistic regression. The notebook includes data preprocessing, feature scaling, model training from scratch, evaluation, and visualization of results.
+This project aims to predict machine failures using logistic regression. The notebook includes data preprocessing, feature scaling, model training from scratch, evaluation, and visualization of results. Machine Failure prediction is really important for preventing uneccessary maintanence cost, helping in scheduling maintenance activities during non-operational hours, and ensuring peak productivity. Involving a ML model like this one for failure prediction can help ensure early detection of failure and utilize the data coming from the sensors in real-time.
 
 ## Overview
 
@@ -16,19 +16,10 @@ The notebook contains the following key steps:
 
 ## Prerequisites
 
-To run the code in this notebook, you need to have the following libraries installed:
-
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- imbalanced-learn
-
-You can install these libraries using pip:
+To run the code in this notebook, you need to have the libraries mentioned in the requirements.txt file installed. Put the file in the same directory you are working in, and run the following command in the termial.
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+pip install -r requirements.txt
 ```
 
 ## Setup
