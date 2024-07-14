@@ -32,28 +32,36 @@ pip install -r requirements.txt
 * Place the data.csv file in the same directory as the notebook.
 
 ## Steps
-1. Data Import and Exploration
+1. Data Import and Exploration:
+
 The data is imported using pandas, and basic exploration is conducted to understand the structure, data types, and summary statistics. Duplicate rows are identified and counted.
 
-2. Data Preprocessing
+2. Data Preprocessing:
+
 Any duplicate rows found in the dataset are dropped to ensure data quality.
 
-3. Handling Imbalanced Dataset
+3. Handling Imbalanced Dataset:
+
 The dataset is checked for class imbalance in the target variable. SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the dataset by oversampling the minority class.
 
-4. Feature Scaling
+4. Feature Scaling:
+
 The features are scaled using MinMaxScaler to bring all values into the range between 0 and 1, which helps improve the performance of the machine learning model.
 
-5. Data Splitting
+5. Data Splitting:
+
 The dataset is split into training and testing sets. A 70:30 split is used to ensure a proper evaluation of the model.
 
-6. Model Training
+6. Model Training:
+
 A regularized logistic regression model is trained from scratch using gradient descent. Functions for computing cost, gradients, and applying gradient descent are defined and used to optimize the model parameters.
 
-7. Model Evaluation
+7. Model Evaluation:
+
 The model is evaluated using various metrics such as accuracy, precision, recall, and F1 score. A confusion matrix and classification report are generated to provide detailed insights into the model's performance on each class.
 
-8. Visualization of Results
+8. Visualization of Results:
+
 Confusion matrix and evaluation scores are visualized using matplotlib and seaborn. Bar plots are used to display accuracy, precision, recall, and F1 score for easy comparison.
 
 ## Results
