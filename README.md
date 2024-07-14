@@ -3,6 +3,7 @@
 This project aims to predict machine failures using logistic regression. The dataset is downloaded from Kaggle, and it contains sensor readings collected from various machines. The notebook includes data preprocessing, feature scaling, model training from scratch, evaluation, and visualization of results. Machine Failure prediction is really important for preventing uneccessary maintanence cost, helping in scheduling maintenance activities during non-operational hours, and ensuring peak productivity. Involving a ML model like this one for failure prediction can help ensure early detection of failure and utilize the data coming from the sensors in real-time.
 
 Link to the dataset: https://www.kaggle.com/datasets/umerrtx/machine-failure-prediction-using-sensor-data
+
 Link to my Kaggle notebook: https://www.kaggle.com/code/specialterminator69/regularized-logistic-regression-from-scratch
 
 ## Overview
